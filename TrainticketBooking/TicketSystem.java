@@ -1,4 +1,4 @@
-package trainticketBooking;
+package TrainticketBooking;
 
 import java.util.Arrays;
 import java.util.HashMap;

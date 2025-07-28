@@ -1,4 +1,4 @@
-package trainticketBooking;
+package TrainticketBooking;
 
 public class TicketBooking {
     private char source;

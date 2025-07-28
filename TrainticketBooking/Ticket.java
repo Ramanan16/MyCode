@@ -1,4 +1,4 @@
-package trainticketBooking;
+package TrainticketBooking;
 
 public class Ticket {
     private static int pnrGenerator = 1;
