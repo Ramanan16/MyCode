@@ -28,7 +28,7 @@ public class Main {
 
         while(true) {
         	System.out.println("=====================================================================");
-            System.out.println(" 1. Book Ticket\n 2. Cancel Ticket\n 3. Print chart\n Choose any one");
+            System.out.println(" 1. Book Ticket\n 2. Cancel Ticket\n 3. Print chart\n 4. Exit\n Choose any one");
             Scanner sc =  new Scanner(System.in);
             int option = sc.nextInt();
 
@@ -68,6 +68,9 @@ public class Main {
                 case 3 : {
                     TicketSystem.getInstance().printChart();
                     break;
+                }
+                case 4 : {
+                    System.exit(option);
                 }
                 default : {
                     System.out.println("Unfortunately Stopped!!");
